@@ -25,4 +25,4 @@ def do_pack():
             return None
         size = os.stat(path).st_size
         print('web_static packed: {} -> {}Bytes'.format(path, size))
-        return path
+        return (path)
