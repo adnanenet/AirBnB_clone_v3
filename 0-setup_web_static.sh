@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
-# Script using bash to setup webservers for deployment of simple HTML
+# Script using bash to setup webservers for deployment of a simple HTML file
 # content
 
 apt-get update && \
 apt-get install -y nginx && \
+
 mkdir -p -m=755 /data/web_static/{releases/test,shared} || exit 0
 echo 'Testing 123' > /data/web_static/releases/test/index.html
 ln -sf /data/web_static/releases/test/ /data/web_static/current
