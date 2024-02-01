@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Deploy an archive of static html to my web servers with Fabric3"""
+"""Deploys an archive of a static html file to my web servers with Fabric3"""
 
 from fabric import api
 from fabric.contrib import files
