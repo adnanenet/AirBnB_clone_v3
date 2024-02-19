@@ -1,7 +1,12 @@
 #!/usr/bin/python3
-"""Simple Flask web application"""
+"""Starts a Simple Flask web application
+
+The application listens on 0.0.0.0, port 5000.
+Routes:
+        /: Displays 'Hello HBNB!'
+"""
 from flask import Flask
-app = Flask('web_flask')
+app = Flask(__name__)
 
 
 @app.route('/', strict_slashes=False)
