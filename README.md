@@ -11,6 +11,7 @@ This is the 2nd version of our AirBnB clone project. We will be using a MySQL da
 <li><code>HBNB_MYSQL_DB</code>: the database name of your MySQL</li>
 <li><code>HBNB_TYPE_STORAGE</code>: the type of storage used. It can be &ldquo;file&rdquo; (using <code>FileStorage</code>) or <code>db</code> (using <code>DBStorage</code>)</li>
 </ul>
+<p><img src="./airbnb.png" alt="step2"></p>
 
 <p><img src="https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step2.png" alt="step2"></p>
 
